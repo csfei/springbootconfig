@@ -1,0 +1,27 @@
+server:
+  port: 8080
+
+Spring:
+  profiles:
+    active: test
+
+
+person:
+  name: zhangsan
+  age: ${random.int}
+  happy: false
+  birth: 2021/07/17
+  maps: {k1: v1,k2: v2}
+  list: ["code","music","girl"]
+  dog:
+    name: tomcat
+    age: 5
+
+#配置文件  application.yml   的优先级
+# 项目路径下的config文件夹下的配置文件
+#  项目路径下的配置文件
+#    资源路径下的config中的配置文件
+#      资源路径下的配置文件
+
+
+
