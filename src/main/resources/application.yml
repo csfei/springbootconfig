@@ -23,5 +23,7 @@ person:
 #    资源路径下的config中的配置文件
 #      资源路径下的配置文件
 
-
+#通过debug： true 来看生效的组件 以及没生效的组件
+debug:
+  false
 

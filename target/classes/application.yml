@@ -16,3 +16,13 @@ person:
   dog:
     name: tomcat
     age: 5
+
+#�����ļ�  application.yml   �����ȼ�
+# ��Ŀ·���µ�config�ļ����µ������ļ�
+#  ��Ŀ·���µ������ļ�
+#    ��Դ·���µ�config�е������ļ�
+#      ��Դ·���µ������ļ�
+
+debug:
+  true
+
